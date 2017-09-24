@@ -1,0 +1,21 @@
+@import '~sass/components/data-table';
+@import '~font/fontello/fontello';
+
+@import '~sass/variables';
+
+.stock-page {
+    padding: 40px;
+    button.create-stock {
+        position: fixed;
+        right: 40px;
+        bottom: 10px;
+    }
+
+    // button.action {
+    //     width: 20px;
+    // }
+
+    .stock-table {
+        margin-bottom: 40px;
+    }
+}

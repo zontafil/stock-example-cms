@@ -1,0 +1,46 @@
+Sorgente,ID,Deutsche,English,Français,Italiano
+Stops,bf46cdac80ba9dec9bd622c7fcca807fae6793db,Stops,Stops,Stops,Stops
+Stop reasons,c04fc45501b27c172412745665d8805fcd88cff5,Stop reasons,Stop reasons,Stop reasons,Motivo di Stop
+Products,48dfb134cb8d324bb45f2f9f3bd7d7afc49bc3f8,Products,Products,Products,Prodotto
+"No, keep",7db32eda5f622c442dc3a381de3c58503f9a42ba,"No, keep","No, keep","No, keep","No, ho cambiato idea"
+"Yes, delete",1a25016bfc0d05a4e7e329e4086b30825ec36db7,"Yes, delete","Yes, delete","Yes, delete","Si, cancella"
+Device,ea64d4177bd648e1a20c92669e6857762b811d8c,Device,Device,Device,Macchina
+Planned,ebcfbbbb89e90987d387a6aa98d7cbbe9558a8ff,Planned,Planned,Planned,Pianificato
+Unplanned,725700a4bae8a094731fc69e8e392347469d29c9,Unplanned,Unplanned,Unplanned,Non pianificato
+Filter by text,1f40aaa04c3145fd22df77852abab52a9fe95860,Filter by text,Filter by text,Filter by text,Filtro per testo
+Filter by category,5b91696c188f4b21f9988c6800880e9500f5b0e9,Filter by category,Filter by category,Filter by category,Filtro per categoria
+Add new error,3560d6f72ff30d208817646b2d880bcda36e1531,Add new error,Add new error,Add new error,Aggiungi errore
+Category,607de17c2a755f65775881c19e276e7c933bcf94,Category,Category,Category,Categoria
+Devices Management,35b01dce4d76488077f41c3df596294259b5261b,Devices Management,Devices Management,Devices Management,Gestisci macchine
+Select at least one device producing this product:,73b6e1a151b0b40ff373dbcacb17141da106c1e0,Select at least one device producing this product:,Select at least one device producing this product:,Select at least one device producing this product:,Scegli almeno una macchina che produce questo prodotto
+Cancel,d7b35c384aecd25a516200d6921836374613dfe7,Cancel,Cancel,Cancel,Cancella
+Confirm,68e710782ccb5398b3acb8844caf0b199da2c3da,Confirm,Confirm,Confirm,Conferma
+Filter by code,e46172af00ab496990d8f1463c12b3decc04ef4c,Filter by code,Filter by code,Filter by code,Filtro per codice
+Add new product,0a83245a9d136129586ad0df5bd9c79a9742dcda,Add new product,Add new product,Add new product,Aggiungi prodotto
+"
+                    {VAR_PLURAL, plural, =0 {There are no devices using this product} =1 {There is 1 device using this product} other {There are
+                    <x id=""INTERPOLATION""/>
+                    devices using this product} }
+                ",2f951c983a664a19222e18ff120515b537882332,"
+                    {VAR_PLURAL, plural, =0 {There are no devices using this product} =1 {There is 1 device using this product} other {There are
+                    <x id=""INTERPOLATION""/>
+                    devices using this product} }
+                ","
+                    {VAR_PLURAL, plural, =0 {There are no devices using this product} =1 {There is 1 device using this product} other {There are
+                    <x id=""INTERPOLATION""/>
+                    devices using this product} }
+                ","
+                    {VAR_PLURAL, plural, =0 {There are no devices using this product} =1 {There is 1 device using this product} other {There are
+                    <x id=""INTERPOLATION""/>
+                    devices using this product} }
+                ","
+                    {VAR_PLURAL, plural, =0 {Non ci sono macchine che producono questo prodotto} =1 {C'è una macchina che producono questo prodotto} other {Ci sono 
+                    <x id=""INTERPOLATION""/>
+                    macchine che usano questo prodotto} }
+                "
+Login,6765b4c916060f6bc42d9bb69e80377dbcb5e4e9,Login,Login,Login,Login
+Indirizzo e-mail,95f4593f935634caff0faa77a4efeabf4d378d1e,Email-address,Email-address,Email-address,Indirizzo e-mail
+Inserisci il tuo indirizzo e-mail,b07c07d95b853c0d1bdac49db691fec817b67810,Insert your email address,Insert your email address,Insert your email address,Inserisci il tuo indirizzo e-mail
+Password,c32ef07f8803a223a83ed17024b38e8d82292407,Password,Password,Password,Password
+Inserisci la tua password,ad599c75e8010e7f6abe197f5809181d2531f69f,Insert your password,Insert your password,Insert your password,Inserisci la tua password
+Hai dimenticato la password?,4b249b837f24093d6ccca10f645e9ef5b8fdd7d2,Did you forget your password?,Did you forget your password?,Did you forget your password?,Hai dimenticato la password?

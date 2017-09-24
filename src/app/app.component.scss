@@ -1,0 +1,27 @@
+@import "~sass/variables";
+
+.mat-select {
+    padding-top: 0;
+}
+
+button.mat-mini-fab, button.mat-raised-button {
+    background-color: #4B4B4B;
+    color: white;
+
+    &.mat-accent {
+        background-color: #4B4B4B;
+        color: white;
+    }
+
+    &.red-button {
+        background-color: $red;
+    }
+
+    &.green-button {
+        background-color: $green;
+    }
+
+    &:disabled {
+        background-color: rgb(214, 214, 214);
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "apps" : [
+        {
+            "name"      : "Stock - CMS",
+            "script"    : "server.js",
+            "env": {
+                "PORT": 16500
+            }
+        }
+    ]
+}

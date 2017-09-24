@@ -1,0 +1,16 @@
+@import "~sass/variables";
+
+.add-new-element-button {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 16px;
+
+    border: 1px solid $orange-hover;
+    background-color: $orange;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px;
+
+    cursor: pointer;
+}

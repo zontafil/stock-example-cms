@@ -1,0 +1,93 @@
+@import "~sass/variables";
+
+.data-table {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 12px;
+
+    background-color: white;
+    border-collapse: collapse;
+
+    .empty-row {
+        text-align: center;
+        padding: 15px;
+        border: 1px solid rgba(black, .12);
+        border-top: 0;
+    }
+
+    .datatable-header {
+        border: 1px solid rgba(black, .12);
+
+        .datatable-header-cell {
+            padding: 16px;
+            text-transform: uppercase;
+            color: $orange-hover;
+            font-weight: bold;
+
+            .datatable-header-cell-label {
+                display: inline;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+
+                &::after {
+                    font: normal normal normal 14px/1 FontAwesome;
+                    margin-left: 5px;
+                }
+            }
+
+            &.sort-asc .datatable-header-cell-label::after {
+                content: "\f106"
+            }
+
+            &.sort-desc .datatable-header-cell-label::after {
+                content: "\f107"
+            }
+        }
+    }
+
+    .datatable-body-row {
+        border: 1px solid rgba(black, .12);
+        border-top: 0;
+
+        .datatable-body-cell {
+            padding: 16px;
+
+            .mat-select {
+                width: 100%;
+            }
+
+            .mat-select-trigger {
+                font-size: 14px;
+            }
+
+            .mat-form-field-infix {
+                border-top: 0;
+                font-size: 14px;
+            }
+
+            .mat-form-field {
+                width: 100%;
+                margin-top: 3px;
+            }
+
+            .mat-mini-fab {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                margin-right: 10px;
+
+                .mat-button-wrapper {
+                    padding: 0;
+                    line-height: 30px;
+                }
+            }
+
+            span.span-value {
+                font-size: 14px;
+                padding: 0;
+                line-height: 40px;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+<div class="stock-page">
+    <ngx-datatable
+        #plannedTable
+        [rows]="stocksList"
+        [columns]="columns"
+        [columnMode]="'force'"
+        [headerHeight]="51"
+        [rowHeight]="undefined"
+        class="stock-table data-table">
+    </ngx-datatable>
+
+    <button class="create-stock" md-fab color="primary" (click)="addStock()">
+        <i class="icon-plus"></i>
+    </button>
+
+</div>
+
+<ng-template #dateTemplate let-rowIndex="rowIndex" let-row="row" ngx-datatable-cell-template>
+    <span>{{row.lastUpdate | date: 'medium'}}</span>
+</ng-template>
+<ng-template #actionsTemplate let-rowIndex="rowIndex" let-row="row" ngx-datatable-cell-template>
+    <button class="action" md-mini-fab color="secondary" (click)="editStockPrice(row, rowIndex)">
+        <i class="icon-pencil"></i>
+    </button>
+</ng-template>
