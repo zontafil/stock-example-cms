@@ -8,6 +8,20 @@ Libraries used:
 - Angular material
 - ngx-datatable
 
+## Installation
+
+Make sure to have node.js installed (node 8+ and npm 5+ recommended).
+
+If unsure, use nvm:
+
+    nvm install
+    nvm use
+
+Install missing dependencies:
+
+    npm install
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:1337/`. The app will automatically reload if you change any of the source files.
